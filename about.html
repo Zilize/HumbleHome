@@ -28,7 +28,7 @@
     <script>
         axios({
             method: 'get',
-            url: 'https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/about.md',
+            url: 'https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/aboutme.md',
             timeout: 5000
         }).then(res => {
             document.getElementById('content').innerHTML = marked(res.data);
