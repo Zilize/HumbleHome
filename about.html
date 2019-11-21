@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/animate.min.css">
     <title>日记 | 寒舍</title>
 </head>
@@ -18,13 +17,14 @@
             <div id="comment" class="animated bounceInRight"><a href="./doc.html">文档</a></div>
             <div id="about" class="animated bounceInRight"><a href="./about.html" style="color: #111;">关于</a></div>
         </div>
-        <div class="template">
+        <div class="template" id="markdown">
             <div id="content"></div>
         </div>
         <div id="footer">Proudly by Zilize @ 2019</div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/style.css">
     <script>
         axios({
             method: 'get',
