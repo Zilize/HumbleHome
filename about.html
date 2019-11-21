@@ -2,17 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./animate.min.css">
-    <style>
-        [v-cloak] {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/animate.min.css">
     <title>日记 | 寒舍</title>
 </head>
 <body>
-    <div id="app" v-cloak>
+    <div id="app">
         <div id="logo1" class="animated bounceInLeft">寒</div>
         <div id="logo2" class="animated bounceInLeft" style="z-index: -10;">舍</div>
         <img src="http://zilize.moecode.com/land/l.png" alt="hello" id="line" width="33%" height="33%" class="animated bounceInDown" style="z-index: -10;"><br>
@@ -20,20 +15,23 @@
             <div id="home" class="animated bounceInRight"><a href="./index.html">首页</a></div>
             <div id="diary" class="animated bounceInRight"><a href="./diary.html">日记</a></div>
             <div id="photo" class="animated bounceInRight"><a href="./photo.html">相册</a></div>
-            <div id="comment" class="animated bounceInRight"><a href="./comment.html">评论</a></div>
+            <div id="comment" class="animated bounceInRight"><a href="./doc.html">文档</a></div>
             <div id="about" class="animated bounceInRight"><a href="./about.html" style="color: #111;">关于</a></div>
         </div>
-        <div class="template"></div>
+        <div class="template">
+            <div id="content"></div>
+        </div>
         <div id="footer">Proudly by Zilize @ 2019</div>
     </div>
-    <script src="./vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-        new Vue({
-            el: '#app',
-            data: function() {
-                return {
-                }
-            }
+        axios({
+            method: 'get',
+            url: 'https://cdn.jsdelivr.net/gh/Zilize/HumbleHome@master/static/about.md',
+            timeout: 5000
+        }).then(res => {
+            document.getElementById('content').innerHTML = marked(res.data);
         })
     </script>
 </body>

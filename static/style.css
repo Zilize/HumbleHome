@@ -1,15 +1,11 @@
 @font-face{
     font-family: Wenyue;
-    src: url("./WenYue-GuDianMingChaoTi-JRFC.otf");
+    src: url("https://cdn.jsdelivr.net/gh/Zilize/MoeLand@master/static/GDMCT.otf");
 }
 
 @font-face{
-    font-family: Kesong;
-    src: url("./MFKeSong_Noncommercial-Regular.ttf");
-}
-@font-face{
     font-family: XQN;
-    src: url("./WenYue-XinQingNianTi-W8-J.otf");
+    src: url("https://cdn.jsdelivr.net/gh/Zilize/MoeLand@master/static/XQN.otf");
 }
 
 #line {
