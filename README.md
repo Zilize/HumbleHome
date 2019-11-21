@@ -4,7 +4,7 @@
 
 寒舍是一个简易的个人博客模板，包含日记、相册、文档、关于四个页面。[演示站点](https://land.zilize.cn/)  [GitHub项目](https://github.com/Zilize/HumbleHome)
 
-![首页展示](./static/homepage.png)
+![首页展示](http://zilize.moecode.com/land/homepage.jpg)
 
 ### 插件/插画/字体
 
