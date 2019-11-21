@@ -2,11 +2,11 @@
 
 ### 简介
 
-本项目是2019年华中科技大学计算机科学与技术学院   `大学计算机基础课程 结课项目`
+本项目是2019年华中科技大学计算机科学与技术学院   大学计算机基础课程 结课项目
 
 寒舍是一个简易的个人博客模板，包含日记、相册、文档、关于四个页面。<a href="https://land.zilize.cn/" class="mdlink">演示站点</a>  <a href="https://github.com/Zilize/HumbleHome" class="mdlink">GitHub项目</a>
 
-<img src="http://zilize.moecode.com/land/homepage.png" width="50%" height="50%">
+<img src="http://zilize.moecode.com/land/homepage.png" width="80%" height="80%">
 
 ### 插件/插画/字体
 
