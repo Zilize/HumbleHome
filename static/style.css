@@ -1,0 +1,208 @@
+@font-face{
+    font-family: Wenyue;
+    src: url("./WenYue-GuDianMingChaoTi-JRFC.otf");
+}
+
+@font-face{
+    font-family: Kesong;
+    src: url("./MFKeSong_Noncommercial-Regular.ttf");
+}
+@font-face{
+    font-family: XQN;
+    src: url("./WenYue-XinQingNianTi-W8-J.otf");
+}
+
+#line {
+    z-index: 1;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+#enter a {
+    position: absolute;
+    color: #555555;
+    top: 60%;
+    left: 49%;
+    font-size: 24px;
+    text-decoration:none;
+    font-family: XQN, baskerville, 'Times New Roman', Times, serif;
+}
+#enter a:hover {
+    color: #111111;
+}
+
+#HomeLogo {
+    color: #444;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 250px;
+    font-family: Wenyue, baskerville, 'Times New Roman', Times, serif;
+}
+
+#logo1 {
+    z-index: 0;
+    position: absolute;
+    font-family: Wenyue, baskerville, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #444;
+    margin-left: 86px;
+    margin-top: 45px;
+}
+#logo2 {
+    z-index: 0;
+    position: absolute;
+    font-family: Wenyue, baskerville, 'Times New Roman', Times, serif;
+    font-size: 74px;
+    color: #444;
+    margin-left: 186px;
+    margin-top: 45px;
+}
+
+#nav {
+    position: relative;
+    font-family: XQN, baskerville, 'Times New Roman', Times, serif;
+    left: 51%;
+    color: #666;
+    font-size: 24px;
+    margin-top: 60px;
+    width: 600px;
+    
+}
+#nav a {
+    color: #666;
+}
+
+#home {
+    position: absolute;
+    margin-left: 60px;
+}
+#home a {
+    text-decoration:none;
+}
+#home a:hover {
+    color: #111111;
+}
+
+#diary {
+    position: absolute;
+    margin-left: 170px;
+}
+#diary a {
+    text-decoration:none;
+}
+#diary a:hover {
+    color: #111111;
+}
+
+#photo {
+    position: absolute;
+    margin-left: 280px;
+}
+#photo a {
+    text-decoration:none;
+}
+#photo a:hover {
+    color: #111111;
+}
+
+#comment {
+    position: absolute;
+    margin-left: 390px;
+}
+#comment a {
+    text-decoration:none;
+}
+#comment a:hover {
+    color: #111111;
+}
+
+#about {
+    position: absolute;
+    margin-left: 500px;
+}
+#about a {
+    text-decoration:none;
+}
+#about a:hover {
+    color: #111111;
+}
+
+#album {
+    position: absolute;
+    left: 28%;
+    margin-top: 90px;
+    z-index: 10;
+}
+
+#articles {
+    position: relative;
+    left: 62%;
+    margin: 400px 0 0 -34%;
+    padding: 3% 6% 3% 6%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.title {
+    font-size: 28px;
+    font-family: baskerville, 'Times New Roman', Times, serif;
+}
+.title a {
+    text-decoration:none;
+}
+.title a:hover {
+    color: #666666;
+}
+
+.author {
+    font-size: 16px;
+    font-family: Wenyue, baskerville, 'Times New Roman', Times, serif;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: baskerville, 'Times New Roman', Times, serif;
+}
+
+#footer {
+    font-family: baskerville, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative ;
+    bottom: 0%;
+    left: 53%;
+    margin: 70px 0 50px -120px;
+    width: 240px;
+    height: 54px;
+}
+
+.template {
+    position: relative;
+    left: 62%;
+    margin: 160px 0 0 -34%;
+    padding: 3% 6% 3% 6%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* .imglist {
+    max-width: 100%;
+    height: 180px;
+    height: 0;
+    padding-bottom: 40%;
+    overflow: hidden;
+}
+.imglist img {
+    width: 320px;
+    height: auto;
+    overflow: hidden;
+} */
+.imglist img {
+    width: 340px;
+    height: 210px;
+    padding-left: 12px;
+    padding-top: 24px;
+    filter: grayscale(70%);
+}
