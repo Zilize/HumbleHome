@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animate.min.css">
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+    <title>日记 | 寒舍</title>
+</head>
+<body>
+    <div id="app" v-cloak>
+        <div id="logo1" class="animated bounceInLeft">寒</div>
+        <div id="logo2" class="animated bounceInLeft" style="z-index: -10;">舍</div>
+        <img src="http://zilize.moecode.com/land/l.png" alt="hello" id="line" width="33%" height="33%" class="animated bounceInDown" style="z-index: -10;"><br>
+        <div id="nav">
+            <div id="home" class="animated bounceInRight"><a href="./index.html">首页</a></div>
+            <div id="diary" class="animated bounceInRight"><a href="./diary.html">日记</a></div>
+            <div id="photo" class="animated bounceInRight"><a href="./photo.html">相册</a></div>
+            <div id="comment" class="animated bounceInRight"><a href="./comment.html">评论</a></div>
+            <div id="about" class="animated bounceInRight"><a href="./about.html" style="color: #111;">关于</a></div>
+        </div>
+        <div class="template"></div>
+        <div id="footer">Proudly by Zilize @ 2019</div>
+    </div>
+    <script src="./vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: function() {
+                return {
+                }
+            }
+        })
+    </script>
+</body>
+</html>
